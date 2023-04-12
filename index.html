@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compataible" content="'IE=edge">
+        <meta name="'viewport" content="'width=device-width,initial-sacle=1-0">
+        <Title>Portfolio Website</Title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="https://kit.fontawesome.com/5d17a25df3.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+       
+        <div id ="header">
+            <div class="container">
+                <nav>
+                    <img src="Chethana Logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Certifications">Certifications</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p> Hello,Welcome</p>
+                    <h1> I'm <span>Chethana</span> Rupasinghe <br></h1>
+                </div>
+            </div>
+         </div>
+         <!-----------------about---------------->
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"> 
+                        <img src="Chethana - png (2).png">
+                    </div>
+                    <div class="about-col-2"> 
+                        <h1 class="Sub-title"> About Me</h1>
+                        <p>I am Chethana Rupasinghe, a final year undergraduate student pursuing a BSc in Applied Data Science Communication at General Sir John Kotelawala Defence University Sri Lanka.
+                            I am a highly motivated individual with research project experience using various technology abilities like Python, R, etc.
+                            Working with real-time data and gaining experience has me eager to keep learning new things. I am a strong candidate because I have a strong commitment to learning and producing great work.
+                            As a final year undergraduate student, I recognize the value of working as a team, and I'm dedicated to doing all in my power to assist the team succeed.
+                        </p>
+                           
+                            <div class = "tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Education')">Education </p>
+                                <p class="tab-links " onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Researches')">Researches</p>
+                               
+                            </div>
+                            <div class="tab-contents active-tab" id="Education">
+                                <ul>
+                                    <li><span>Highest Education</span><br> BSc in Applied Data Science and Communication <br>
+                                        General Sir John Kotelawala Defence University</li>
+                                </ul>
+                            </div>
+                        <div class="tab-contents"id="Skills">
+                            <ul>
+                                <li><span>Visualizing Tools</span><br>Power BI Desktop & Power BI Report Builder</li>
+                                <li><span>Programming Languages</span><br>Python,R Language & SQL</li>
+                                <li><span>Web Technologies</span><br>HTML & CSS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Researches">
+                            <ul>
+                                <li><span>"Agri-Sri" Mobile Appilcation</span><br> Building Digital Bridge Between Sri Lankan Farmers and 
+                                    Retailers: Conceptual Mobile Application Prototype (Ongoing)</li>
+                                <li><span>Body Perfection Assesments</span><br> Body Perception Assessment as a Diagnostic Tool for Eating 
+                                    Disorders in Women: A Predictive Analysis</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+            </div>
+        </div>
+         </div>
+         <!------Services------>
+         <div id="Certifications">
+            <div class="container">
+                <h1 class="Sub-title">My Certifications</h1>
+                <div class="Certification-list">
+                <div>
+                    <img src="DA100-PL300.png">
+                    <h2> DA-100 / PL-300</h2>
+                    <p>Microsoft Certified: Power BI Data Analyst Associate (DA -100 / 
+                        PL- 300) </p>
+                        <a href="https://www.credly.com/badges/da3c2b3e-038a-4030-864e-7e3f6e70bced/linked_in_profile">Learn more</a>
+                </div>
+                <div>
+                    <img src="DP-900.png">
+                    <h2> DP-900</h2>
+                    <p>  Microsoft Certified: Azure Data Fundamentals<br>(DP-900) </p>
+                        <a href="https://www.credly.com/badges/6a55573e-3af1-4fa9-8249-4a4fc93baeb7/linked_in_profile">Learn more</a>
+                </div>
+                <div>
+                    <img src="AI-900.png">
+                    <h2> AI-900</h2>
+                    <p> Microsoft Certified: Azure AI Fundamentals<br>(AI-900)
+                    </p>
+                        <a href="https://www.credly.com/badges/964a1c5a-65d8-4223-b134-58d80bc811e2/linked_in_profile">Learn more</a>
+                </div>
+                </div>
+                
+            </div>
+         </div>
+
+<!----------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="Sub-title">My Projects</h1>
+        <div class="work-List">
+            <div class="Work">
+               <img src="MAS.png">
+               <div class="layer">
+                <h3> Apparel-Knitting OEE</h3>
+                <p>This dashboard was created for MAS Fabric Matrix Sri Lanka.This shows Actual performance and the actual availability of the workers in teh factory.This Dashboard helps to get and clear idea how was the avilability of the workers and how it affect to the average profit in each months </p>
+                <a href="MAS.png">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="Work">
+                <img src="AQI.png">
+                <div class="layer">
+                    <h3> Air Quality Monitor - Colombo</h3>
+                    <p>This Air Quality Monitoring dashboard visualize the Air Quality Index in colombo 2017 to 2020.This Dashboatrd helps to get an clear idea how was the quality of the air in colombo in different months</p>
+                    <a href="AQI.png">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+        </div>
+        <div class="Work">
+            <img src="EPC1.png">
+            <div class="layer">
+                <h3> Energy Performance Certificate Analysis in Greater Manchester</h3>
+                <p> the Energy Performance Certificate Analysis dashboard provides a comprehensive and customizable view of energy performance data for properties in the UK, helping users to make informed decisions about energy efficiency and reduce their environmental impact.
+                    This is a two-page dashboard and the special function in our dashboard that can change the mode to dark and light. This function makes the user comfortable and can change their preferenc
+                    </p>
+                <a href="EPC1.png">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----Contact------>
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="Sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>  chethanabuddini256@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>  0715821804</p>
+                <div class="Social-Icons">
+                    <a href="https://www.linkedin.com/in/chethana-rupasinghe-333420209/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="Curriculum Vitae - Chethana Rupasinghe .pdf"Download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> &#169 Chethana Rupasinghe </p>
+    </div>
+</div>
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabconents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabconents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+      </script> 
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+      </script> 
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyMj7ISHGDMvTLht7CZV_x8AQdNvOaOuhaH4SH5YmjRgm4imnWudGn7ujgtgjLoJ--YAQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Succesfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+        
+    </body>
+</html>
